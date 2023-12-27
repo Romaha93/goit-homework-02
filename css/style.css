@@ -1,10 +1,11 @@
 
-/*---------------*/
+/**---------------*/
 
 
 body {
     font-family: "Roboto",
         sans-serif;
+        color: #2E2F42;
 }
 
 a { 
@@ -15,17 +16,17 @@ ul {
     list-style: none;
 }
 
-/*---------------*/
+/**---------------*/
 
 
-/*-------header--------*/
+/**-------header--------*/
 .header-logo {
     color: #2E2F42;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
         line-height: 21px;
-        letter-spacing: -0.03em;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -36,7 +37,7 @@ ul {
         font-style: normal;
         font-weight: 700;
         line-height: 1.16;
-        letter-spacing: -0.03em;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -45,7 +46,7 @@ ul {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: -0.02em;
+        letter-spacing: 0.02em;
 }
 
 .header-navigation-link:hover {
@@ -62,11 +63,11 @@ ul {
 
 .header-address-link {
     color: #434455;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: -0.02em;
-        font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .header-address-link:hover {
@@ -77,4 +78,171 @@ ul {
     color: #404BBF;
 }
 
-/*-------header--------*/
+/**---------------*/
+
+
+/**-------first layer--------*/
+
+.hero { 
+    background-color: #2E2F42;
+}
+
+.hero-title { 
+color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+.hero-button {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+/**---------------*/
+
+
+/**----------second layer---------- */
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.features-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**---------------*/
+
+
+/**----------third layer---------- */
+
+.team {}
+
+.team-title {
+    color:  #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-item-title {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: #434455;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**---------------*/
+
+
+/**----------the fourth layer---------- */
+
+.portfolio-title {
+    color: #2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-item-img {}
+
+.portfolio-item-title {
+    color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+    color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/**---------------*/
+
+
+/**----------footer---------- */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-link {
+    color: #F4F4FD;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+
+.footer-text {
+    color: #F4F4FD;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
