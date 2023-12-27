@@ -48,6 +48,18 @@ ul {
         letter-spacing: -0.02em;
 }
 
+.header-navigation-link:hover {
+    color: #404BBF;
+}
+.header-navigation-link:focus {
+    color: #404BBF;
+}
+
+.header-navigation-link:active {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
 .header-address-link {
     color: #434455;
         font-size: 16px;
@@ -57,5 +69,12 @@ ul {
         font-style: normal;
 }
 
+.header-address-link:hover {
+    color: #404BBF;
+}
+
+.header-address-link:focus {
+    color: #404BBF;
+}
 
 /*-------header--------*/
