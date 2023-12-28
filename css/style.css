@@ -66,7 +66,6 @@ ul {
 .header-address-link {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
@@ -141,7 +140,6 @@ letter-spacing: 0.02em;
 .features-text {
     color: #434455;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -182,7 +180,6 @@ letter-spacing: 0.02em;
     color: #434455;
         text-align: center;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -215,7 +212,6 @@ letter-spacing: 0.02em;
 .portfolio-item-text {
     color: #434455;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
