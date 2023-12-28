@@ -89,6 +89,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 }
 
 .hero-button {
@@ -124,6 +125,7 @@ letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .features-text {
@@ -149,6 +151,7 @@ letter-spacing: 0.02em;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
 }
 
 .team-list {}
@@ -165,6 +168,7 @@ letter-spacing: 0.02em;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 .team-text {
@@ -172,6 +176,7 @@ letter-spacing: 0.02em;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 /**---------------*/
@@ -186,6 +191,7 @@ letter-spacing: 0.02em;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
 }
 
 .portfolio-item-img {}
